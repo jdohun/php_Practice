@@ -1,0 +1,27 @@
+/*
+    <link rel="stylesheet" href="test.css">
+*/
+@keyframes NameAnim {
+    0%{ color: red; } 25%{ color: blue; } 50%{ color: aqua; } 75%{ color: fuchsia;} 100%{color:red;}
+} 
+
+.NameAnim{ color: red; animation-name: NameAnim; animation-duration: 3s; animation-iteration-count: infinite; }
+
+
+@keyframes NameAnim {
+    0%{ color: palegreen; } 25%{ color: purple; } 50%{ color: aqua; } 75%{ color: fuchsia;} 100%{color:palegreen;}
+} 
+
+.NameAnim{ color: palegreen; animation-name: NameAnim; animation-duration: 3s; animation-iteration-count: infinite; }
+
+
+
+/*
+admin anim
+*/
+
+@keyframes NameEvent { 
+    0%{ color: aqua; } 50%{ color: red; } 100%{ color: aqua; }
+}
+
+.adminNameEvent{ color: aqua; animation-name: NameEvent; animation-duration: 3s; animation-iteration-count: infinite; } 
